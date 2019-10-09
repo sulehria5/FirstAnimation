@@ -1,0 +1,21 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+}
+div{
+    width:5vw;
+    height: 5vw;
+    border-radius: 50%;
+    animation:mein-animation 8s infinite;
+    position: relative;
+}
+
+@keyframes mein-animation{
+     0% {background:red;left:0;top:0;}
+     25% {background:blue;left:95vw;top:0;}
+     50% {background:green;left:95vw;top:90vh;}
+     75%{background: pink;left:0;top:90vh;}
+     100%{background: red;left:0;top:0;}
+
+}
